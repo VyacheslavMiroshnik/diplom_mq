@@ -1,0 +1,153 @@
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.header_wrapper {
+  min-width: 641px;
+}
+
+.logo_text {
+  width: 200px;
+}
+.logo_header {
+  margin-bottom: 160px;
+}
+.header_title {
+  font-size: 64px;
+  margin-bottom: 250px;
+}
+.header_title_text {
+  width: 75%;
+  margin-bottom: 0;
+}
+
+.app_links {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  margin-bottom: 50px;
+  padding: 15px 0;
+}
+.app_link_item {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+.app_link_item:last-child {
+  margin-right: 0;
+}
+.app_link {
+  width: 250px;
+  padding: 15px;
+  background-position: calc(30% - 35px);
+  background-size: 35px;
+}
+.app_link_text_block {
+  min-width: 70%;
+  margin-left: auto;
+}
+
+/*     */
+/*     */
+/*     */
+/*     */
+
+.card_wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content_block {
+  min-width: 641px;
+}
+.athlets_card,
+.player_card {
+  padding-top: 60px;
+}
+.athlets_card .card_wrapper {
+  margin-left: auto;
+}
+
+.athlets_card .card_image_block,
+.player_card .card_image_block {
+  position: absolute;
+  top: 60px;
+}
+.athlets_card .card_image_block {
+  left: -150px;
+}
+.player_card .card_image_block {
+  right: 0;
+}
+.card_title {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.card_category_item {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.card_category_title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.card_category_number {
+  font-size: 18px;
+  border-bottom: 4px solid #5e42b0;
+  margin-right: 10px;
+}
+.card_category_text {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card_info {
+  position: relative;
+  padding-top: 50px;
+}
+.card_number {
+  font-size: 24px;
+  padding: 24px 27px;
+  top: -55px;
+  left: 32px;
+}
+.card_number::after {
+  height: 3px;
+}
+.card_info_title {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.card_text {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+/**/
+/**/
+/**/
+/**/
+.wrapper_footer {
+  background-image: url(../img/game_767.jpg);
+}
+
+.footer_content {
+  position: relative;
+  padding: 30px 32px;
+}
+.download_logo_block {
+  margin: 80px auto 250px;
+}
+.footer_logo {
+  width: 130px;
+  margin: 0 auto 70px;
+  padding: 15px 10px;
+}
+.download_title {
+  font-size: 80px;
+}
+.dowload_title_promo {
+  font-size: 36px;
+}
