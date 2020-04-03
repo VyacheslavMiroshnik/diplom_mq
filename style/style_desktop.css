@@ -1,0 +1,189 @@
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .header_wrapper,.main_wrapper,.footer_wrapper {
+      min-width:961px;
+    
+  }
+  
+  .logo_text {
+    width: 200px;
+  }
+  .logo_header {
+    margin-bottom: 160px;
+  }
+  .header_title {
+    font-size: 90px;
+    margin-bottom: 250px;
+  }
+  .header_title_text {
+    width: initial;
+    margin-bottom: 0;
+  }
+
+  .app_links {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding: 15px 0;
+  }
+  .app_link_item {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .app_link_item:last-child {
+    margin-right: 0;
+  }
+  .app_link {
+    width: 250px;
+    padding: 15px;
+    background-position: calc(30% - 35px);
+    background-size: 35px;
+  }
+  .app_link_text_block {
+    min-width: 70%;
+    margin-left: auto;
+  }
+  
+  /*     */
+  /*     */
+  /*     */
+  /*     */
+  
+  .card_wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main_card:nth-child(n+3){
+      flex-direction: row;
+  }
+  .content_block {
+    min-width: 961px;
+  }
+  .athlets_card,
+  .player_card {
+    padding-top: 60px;
+  }
+  .card_image_block,.card_image{
+      height: 100%;
+  }
+  
+  .main_card:nth-child(2n+3) .card_info{
+      order: -1;
+  }
+  .athlets_card .card_wrapper {
+    margin-left: auto;
+  }
+  
+  .athlets_card .card_image_block,
+  .player_card .card_image_block {
+    position: absolute;
+    
+  }
+  .card_image_block{
+      width:50%;
+  }
+  .player_card .card_image_block {
+    right: 0;
+  }
+  .card_title {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .card_category_item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .card_category_title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .card_category_number {
+    font-size: 18px;
+    border-bottom: 4px solid #5e42b0;
+    margin-right: 10px;
+  }
+  .card_category_text {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .card_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    position: relative;
+    width:50%;
+
+  }
+  .card_number {
+    font-size: 24px;
+    padding: 60px 60px;
+    top:calc(50% - 120px);
+    left:-80px;
+
+  }
+  .main_card:nth-child(n+3):nth-child(odd) .card_number{
+      right:-80px;
+      left: auto;
+  }
+  .card_number::after {
+    height: 3px;
+  }
+  .card_info_title {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .card_text {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  /**/
+  /**/
+  /**/
+  /**/
+  .wrapper_footer {
+    background-image: url(../img/game_767.jpg);
+  }
+  
+  .footer_content {
+    position: relative;
+    padding: 30px 32px;
+  }
+  .download_logo_block {
+    margin: 80px auto 250px;
+  }
+  .footer_logo {
+    width: 130px;
+    margin: 0 auto 70px;
+    padding: 15px 10px;
+  }
+  .download_title {
+    font-size: 80px;
+  }
+  .dowload_title_promo {
+    font-size: 30px;
+  }
+  @media(min-width:1280px) and (max-width:1919px){
+      .header_content{
+          background-image: url(../img/football_1280.jpg);
+      }
+      .wrapper_footer{
+          background-image: url(../img/game_1280.jpg);
+      }
+  }
+  @media(min-width:1920px){
+    .header_content{
+        background-image: url(../img/football_1920.jpg);
+    }
+    .wrapper_footer{
+        background-image: url(../img/game_1920.jpg);
+    }
+}
