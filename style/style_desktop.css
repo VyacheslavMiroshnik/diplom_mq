@@ -123,15 +123,7 @@
     background-size: cover;
     height: auto;
   }
-  .be_active_image{
-    background-image: url(../img/be-active_960.jpg);
-  }
-  .find_contact_image{
-    background-image: url(../img/find-contact_960.jpg);
-  }
-  .work_it_image{
-    background-image: url(../img/work-it_960.jpg);
-  }
+  
   .card_info {
       display: flex;
       flex-direction: column;
