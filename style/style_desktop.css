@@ -114,7 +114,24 @@
     margin-bottom: 10px;
     font-size: 20px;
   }
-  
+  .main_card:nth-child(n+3) picture.card_image_block{
+    display: none;
+  }
+  .be_active_image,.find_contact_image,.work_it_image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  .be_active_image{
+    background-image: url(../img/be-active_960.jpg);
+  }
+  .find_contact_image{
+    background-image: url(../img/find-contact_960.jpg);
+  }
+  .work_it_image{
+    background-image: url(../img/work-it_960.jpg);
+  }
   .card_info {
       display: flex;
       flex-direction: column;
@@ -186,4 +203,26 @@
     .wrapper_footer{
         background-image: url(../img/game_1920.jpg);
     }
+}
+@media(min-width:961px) and (max-width:1023px){
+  .be_active_image{
+    background-image: url(../img/be-active_960.jpg);
+  }
+  .find_contact_image{
+    background-image: url(../img/find-contact_960.jpg);
+  }
+  .work_it_image{
+    background-image: url(../img/work-it_960.jpg);
+  }
+}
+@media(min-width:1024px) {
+  .be_active_image{
+    background-image: url(../img/be-active_1024.jpg);
+  }
+  .find_contact_image{
+    background-image: url(../img/find-contact_1024.jpg);
+  }
+  .work_it_image{
+    background-image: url(../img/work-it_1024.jpg);
+  }
 }
