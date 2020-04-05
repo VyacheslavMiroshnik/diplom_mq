@@ -141,7 +141,8 @@ ul,ol {
   margin: 0;
   
 }
-.main_card:nth-child(n+1):nth-child(-n+2) .card_image_block{
+.athlets_card .card_image_block,
+.player_card .card_image_block {
 display: flex;
 justify-content: center;
 }

@@ -73,6 +73,7 @@
 .athlets_card .card_image_block,
 .player_card .card_image_block {
   position: absolute;
+  justify-content: flex-start;
   top: 60px;
 }
 .athlets_card .card_image_block {
