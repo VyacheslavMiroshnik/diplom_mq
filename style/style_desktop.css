@@ -69,6 +69,7 @@
   .athlets_card,
   .player_card {
     padding-top: 60px;
+    
   }
   .card_image_block,.card_image{
       height: 100%;
@@ -90,7 +91,10 @@
       width:50%;
   }
   .player_card .card_image_block {
-    right: 0;
+    align-self: flex-end;
+  }
+  .athlets_card .card_image_block{
+    align-self: flex-start;
   }
   .card_title {
     font-size: 80px;

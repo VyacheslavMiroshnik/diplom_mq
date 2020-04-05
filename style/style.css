@@ -125,6 +125,7 @@ ul,ol {
 
 .content_block{
   min-width: 320px;
+  overflow: hidden;
 }
 .main_card{
   position: relative;
@@ -138,12 +139,17 @@ ul,ol {
   text-transform: uppercase;
   color: #e7e7e7;
   margin: 0;
-}.card_category_item{
+  
+}
+.main_card:nth-child(n+1):nth-child(-n+2) .card_image_block{
+display: flex;
+justify-content: center;
+}
+.card_category_item{
   padding-top:50px;
   padding-bottom:50px;
 }
-.card_image{
-  display: block;
+.main_card:nth-child(n+3) .card_image{
   width: 100%;
 
 }
