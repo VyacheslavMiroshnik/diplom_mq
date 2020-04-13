@@ -159,10 +159,7 @@ justify-content: center;
   padding-top:20px;
   padding-bottom:70px;
 }
-.player_card .card_category_item{
-  padding-top: 30px;
-}
-.main_card:nth-child(n+3) .card_image{
+in_card:nth-child(n+3) .card_image{
   width: 100%;
 
 }
