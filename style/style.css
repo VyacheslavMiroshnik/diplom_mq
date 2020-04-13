@@ -206,6 +206,9 @@ background-color: #5e42b0;
 .card_category_item:nth-child(3) .card_category_text{
   color: #ffffff;
 }
+ .card_image{
+  width:100%;
+}
 .main_card:nth-child(n+3) picture{
   display: block;
   font-size: 0px;
