@@ -2,8 +2,10 @@
     padding-left: 6%;
     padding-right: 6%;
   }
-  .header_wrapper,.main_wrapper,.footer_wrapper {
-      min-width:961px;
+  .header_wrapper,.footer_wrapper {
+      max-width:1600px;
+      min-width: 960px;
+      
     
   }
   
@@ -15,7 +17,9 @@
   }
   .header_title {
     font-size: 90px;
-    margin-bottom: 250px;
+    line-height: 1.2;
+
+    margin: 100px auto 170px;
   }
   .header_title_text {
     margin-bottom: 0;
@@ -24,11 +28,9 @@
   .app_links {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 14px;
-    margin-bottom: 50px;
-    padding: 15px 0;
+    margin-bottom: 85px;
+    
   }
   .app_link_item {
     margin-bottom: 0;
@@ -38,10 +40,10 @@
     margin-right: 0;
   }
   .app_link {
-    width: 250px;
+    width: 300px;
     padding: 15px;
-    background-position: calc(30% - 35px);
-    background-size: 35px;
+    background-position: calc(30% - 40px);
+    background-size: 45px;
   }
   .app_link_text_block {
     min-width: 70%;
@@ -67,14 +69,12 @@
   }
   .athlets_card,
   .player_card {
-    padding-top: 60px;
+   margin-top:100px;
     
   }
-  .card_image_block,.card_image{
-      height: 100%;
-  }
+ 
   
-  .main_card:nth-child(2n+3) .card_info{
+  .main_card:nth-child(2n+4) .card_info{
       order: -1;
   }
   .athlets_card .card_wrapper {
@@ -84,25 +84,32 @@
   .athlets_card .card_image_block,
   .player_card .card_image_block {
     position: absolute;
-    justify-content: flex-start;
+    top:0;
+    
     
   }
   .card_image_block{
-      width:50%;
-  }
-  .player_card .card_image_block {
-    align-self: flex-end;
+    width:50%;
   }
   .athlets_card .card_image_block{
-    align-self: flex-start;
+        justify-content: flex-end;
+       
+      }
+  .player_card .card_image_block {
+    align-self: flex-end;
+    justify-content: flex-start;
+    
   }
   .card_title {
     font-size: 80px;
     margin-bottom: 20px;
   }
+  .player_card .card_categories{
+    margin-top: 35px;
+  }
   .card_category_item {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 50px;
   }
   
   .card_category_title {
@@ -118,15 +125,8 @@
     margin-bottom: 10px;
     font-size: 20px;
   }
-  .main_card:nth-child(n+3) picture.card_image_block{
-    display: none;
-  }
-  .be_active_image,.find_contact_image,.work_it_image{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-  }
+  
+  
   
   .card_info {
       display: flex;
@@ -134,49 +134,60 @@
       justify-content: center;
     position: relative;
     width:50%;
+    padding-top: 0;
+    padding-bottom:0 ;
 
   }
   .card_number {
     font-size: 24px;
-    padding: 60px 60px;
+    padding: 60px 70px;
     top:calc(50% - 120px);
-    left:-80px;
+    right:-80px;
+    left:  auto;
 
   }
   .main_card:nth-child(n+3):nth-child(odd) .card_number{
-      right:-80px;
-      left: auto;
+      left:-80px;
+      right: auto;
+     
   }
   .card_number::after {
     height: 3px;
   }
   .card_info_title {
     font-size: 80px;
-    margin-bottom: 20px;
+    margin:75px 0 0 ;
   }
   .card_text {
     font-size: 24px;
-    margin-bottom: 50px;
+    margin:80px 0 0 ;
   }
   /**/
   /**/
   /**/
   /**/
   .wrapper_footer {
+    max-width: 1600px;
+    padding: 0;
+  }
+  .footer_content{
+
     background-image: url(../img/game_767.jpg);
   }
   
-  .footer_content {
-    position: relative;
-    padding: 30px 32px;
-  }
+  
   .download_logo_block {
-    margin: 80px auto 250px;
+   display: flex;
+    margin: 200px auto 50px auto;
+   
   }
   .footer_logo {
-    width: 130px;
-    margin: 0 auto 70px;
+    width: 120px;
+    margin: 0 25px 70px;
     padding: 15px 10px;
+  }
+  .download_title_block{
+    text-align: left;
   }
   .download_title {
     font-size: 80px;
@@ -184,11 +195,18 @@
   .dowload_title_promo {
     font-size: 30px;
   }
+  .footer_content .app_links{
+    margin-bottom: 250px;
+    margin-top: 15px;
+  }
+  .footer_content .logo_text{
+    height: 50px;
+  }
   @media(min-width:1280px) and (max-width:1919px){
       .header_content{
           background-image: url(../img/football_1280.jpg);
       }
-      .wrapper_footer{
+      .footer_content{
           background-image: url(../img/game_1280.jpg);
       }
   }
@@ -196,29 +214,25 @@
     .header_content{
         background-image: url(../img/football_1920.jpg);
     }
-    .wrapper_footer{
+    .footer_content{
         background-image: url(../img/game_1920.jpg);
     }
-}
-@media(min-width:961px) and (max-width:1023px){
-  .be_active_image{
-    background-image: url(../img/be-active_960.jpg);
-  }
-  .find_contact_image{
-    background-image: url(../img/find-contact_960.jpg);
-  }
-  .work_it_image{
-    background-image: url(../img/work-it_960.jpg);
-  }
-}
-@media(min-width:1024px) {
-  .be_active_image{
-    background-image: url(../img/be-active_1024.jpg);
-  }
-  .find_contact_image{
-    background-image: url(../img/find-contact_1024.jpg);
-  }
-  .work_it_image{
-    background-image: url(../img/work-it_1024.jpg);
-  }
+    .container{
+      padding-left:calc((100vw - 1600px)/2) ;
+      padding-right:calc((100vw - 1600px)/2) ;
+    }
+    .athlets_card .container{
+      padding-left: 6%;
+    }
+
+    .player_card .container{
+      padding-right: 6%;
+    }
+    .main_card:nth-child(even) .card_info.container{
+      padding-right: 6%;
+      
+    }
+    .main_card:nth-child(odd) .card_info.container{
+      padding-left: 6%;
+    }
 }

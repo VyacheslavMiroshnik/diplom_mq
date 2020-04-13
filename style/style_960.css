@@ -2,22 +2,23 @@
   padding-left: 32px;
   padding-right: 32px;
 }
-.header_content {
-  min-width: 641px;
+.header_wrapper {
+  max-width: 960px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
 .logo_text {
-  width: 200px;
+  width: 215px;
 }
 .logo_header {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 .header_title {
   font-size: 64px;
   margin-bottom: 250px;
 }
 .header_title_text {
-  width: 75%;
+  width: 80%;
   margin-bottom: 0;
 }
 
@@ -38,10 +39,10 @@
   margin-right: 0;
 }
 .app_link {
-  width: 250px;
+  width: 280px;
   padding: 15px;
   background-position: calc(30% - 35px);
-  background-size: 35px;
+  background-size: 45px;
 }
 .app_link_text_block {
   min-width: 70%;
@@ -52,9 +53,11 @@
 /*     */
 /*     */
 /*     */
-
+.main_wrapper{
+  padding-top: 5px;
+}
 .card_wrapper {
-  width: 60%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -62,9 +65,11 @@
 .content_block {
   min-width: 641px;
 }
-.athlets_card,
+.athlets_card{
+  padding-top: 40px;
+}
 .player_card {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 .athlets_card .card_wrapper {
   margin-left: auto;
@@ -73,24 +78,24 @@
 .athlets_card .card_image_block,
 .player_card .card_image_block {
   position: absolute;
-  justify-content: flex-start;
+
   top: 60px;
 }
 .athlets_card .card_image_block {
   
-  align-self: flex-start;
-  left: -130px;
+  left: -160px;
+  top:90px;
 }
 .player_card .card_image_block {
   align-self: flex-end;
 }
 .card_title {
   font-size: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .card_category_item {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .card_category_title {
@@ -109,13 +114,13 @@
 
 .card_info {
   position: relative;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 .card_number {
   font-size: 24px;
-  padding: 24px 27px;
+  padding: 35px 45px;
   top: -55px;
-  left: 32px;
+  left: 30px;
 }
 .card_number::after {
   height: 3px;
@@ -126,27 +131,28 @@
 }
 .card_text {
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 /**/
 /**/
 /**/
 /**/
 .wrapper_footer {
-  background-image: url(../img/game_767.jpg);
+  position: relative;
+  padding: 30px 32px;
+  max-width: 960px;
 }
 
 .footer_content {
-  position: relative;
-  padding: 30px 32px;
+  background-image: url(../img/game_767.jpg);
 }
 .download_logo_block {
   margin: 80px auto 250px;
 }
 .footer_logo {
-  width: 130px;
-  margin: 0 auto 70px;
-  padding: 15px 10px;
+  width: 115px;
+  margin: 30px auto 70px;
+  padding: 20px 10px;
 }
 .download_title {
   font-size: 80px;
