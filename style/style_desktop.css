@@ -1,10 +1,11 @@
 .container {
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 7%;
+    padding-right: 7%;
   }
   .header_wrapper,.footer_wrapper {
       max-width:1600px;
       min-width: 960px;
+      padding: 50px 0;
       
     
   }
@@ -224,17 +225,17 @@
       padding-right:calc((100vw - 1600px)/2) ;
     }
     .athlets_card .container{
-      padding-left: 6%;
+      padding-left: 7%;
     }
 
     .player_card .container{
-      padding-right: 6%;
+      padding-right: 7%;
     }
     .main_card:nth-child(even) .card_info.container{
-      padding-right: 6%;
+      padding-right: 7%;
       
     }
     .main_card:nth-child(odd) .card_info.container{
-      padding-left: 6%;
+      padding-left: 7%;
     }
 }
