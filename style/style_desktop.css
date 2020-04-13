@@ -134,8 +134,8 @@
       justify-content: center;
     position: relative;
     width:50%;
-    padding-top: 0;
-    padding-bottom:0 ;
+    padding-top: 10px;
+    padding-bottom:10px ;
 
   }
   .card_number {
